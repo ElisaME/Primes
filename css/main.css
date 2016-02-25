@@ -1,0 +1,274 @@
+/*General*/
+*{
+	font-family: Open Sans;
+}
+/*MAIN ARELI*/
+#header{
+	background-image: url("../img/background/hero.jpg");
+	height: 600px;
+	width: 100%;
+	background-size:cover;
+	-webkit-filter: brightness(0.5);
+}
+#header a{
+	padding:2%; 
+}
+.rec1{
+      width:60px;
+      height: 90px;
+      background-color: #585858;
+      color:white;
+}
+.rec2{
+      width:60px;
+      height: 90px;
+      background-color: #585858;
+      color:white;
+}
+.absolute{
+	position: absolute;
+}
+.pt-15{
+	padding-top: 15%;
+}
+#header a:hover{
+      background: white;
+}
+#header .azul:hover{
+	color: #23BEC1 ;
+}
+.city a:hover{
+	color:#23BEC1;
+	font-weight: bold;
+}
+.trans{
+      color:white;
+      position:absolute;
+      margin-top: 200px;
+      margin-left:80px;
+      text-align:center;
+      font-size:20px;
+      text-indent: 150px;
+    }
+.icono{
+      font-size: 40px;
+      text-align: center;
+      color: #23BEC1;
+}
+.cols{
+      height: 250px;
+      width: 350px;
+}
+    .city{
+      width: 100%;
+      height:440px;
+      background-size:cover;
+      background-position: 100% 0px;
+      background-image: url("../img/background/city.jpg");/*poner imagen de fondo*/
+      background-repeat: no-repeat;
+
+}
+.txt1{
+      font-size: 22px;
+      padding-top: 130px;
+      text-align: center;
+}
+.txt2{
+      font-size: 22px;
+      text-align: center;
+      padding-top: 5px;
+}
+.tran {
+      width: 150px;
+      height: 100px;
+      background-color: transparent;
+      padding: 25px;
+      color: white;
+      font-size: 15px;
+      position: absolute;
+      z-index: 1;  
+      margin-top:-10px; 
+      margin-left: 590px;
+}
+.background {
+    width: 120px;
+    height: 40px;
+    background-color: #FFFFFF;
+    margin: 50px 0px 0px 600px;
+}
+.transp {
+    opacity: 0.5;
+}
+.are{
+      text-align: center;
+      padding-bottom: 10px;
+      padding-top: 35px;
+}
+.art{
+      text-align: center;
+      padding-bottom: 40px;
+      padding-top:0px;
+}
+.cuablanc{
+      width: 300px;
+      height: 600px;
+      background-color: white;
+      padding-bottom: 50px;
+      margin-left: 80px;
+}
+.cuanegro{
+      width: 250px;
+      height: 100px;
+      background-color: black;
+      margin-top: 30px;
+      margin-left: 10px;
+}
+.cuaverde{
+      width: 250px;
+      height: 100px;
+      background-color:  #23BEC1;
+      margin-top: 30px;
+      margin-left: 10px;
+}
+.cuagris{
+      width: 250px;
+      height: 150px;
+      background-color:#A4A4A4;
+      margin-left: 10px;
+      margin-bottom: 30px;
+}
+hr {
+      border: 0px;  
+      border-bottom: 1px solid #BDBDBD; 
+      width:200px;
+      margin-left: 15%;
+      margin-bottom: 15px;
+      margin-top: 15px;
+}
+.botnegro{
+      width: 120px;
+      height: 30px;
+      background-color: black;
+      margin-left: 80px;
+      margin-top: 20px;
+}
+.standard{
+      font-size: 36px;
+      padding-top: 30px;
+}
+.from{
+      font-size: 16px;
+      font-weight: bold;
+      padding-top: 60px;
+}
+.pur{
+     padding-top: 8px;  
+}
+.texto-grande{
+	font-size: 30px;
+}
+.customer{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+     /* margin-left: 500px;
+      margin-bottom: 50px;*/
+}
+.pallen{
+      width: 750px;
+      height: 200px;
+      margin-left: 200px;
+      padding-bottom: 0px;
+}
+.dian{
+      width: 750px;
+      margin-left: 500px;
+      font-weight: bold; 
+      margin-top: -100px;
+      margin-bottom:2%;
+}
+/*MAIN ELISA*/
+/* More Features*/
+#features img{
+	max-width: 800px;
+}
+/*Text*/
+.justify{
+	text-align: justify;
+}
+/*Iconos*/
+.icono{
+	font-size: 40px;
+	text-align: center;
+	color: #23BEC1;
+}
+/*Margin*/
+.mt-4{
+	margin-top: 4%;
+}
+.pt-2{
+	padding-top: 2%;
+}
+.pb-2{
+	padding-bottom: 2%;
+}
+.mt-2{
+	margin-top: 2%;
+}
+/*Portafolio*/
+.nav a{
+	background-color: white;
+	padding:1% 2%;
+	margin: 2% 1%;
+	font-weight: bold;
+	color: black;
+}
+.nav a:hover{
+	background-color: #23BEC1;
+	color: white;
+}
+.bg-white{
+	background-color: white;
+	padding: 2%;
+	border:1px solid #BDBDBD;
+}
+/*Boton Load More*/
+.btn-load{
+	width: 100px;
+	background-color: gray;
+	text-align: center;
+	margin: 2% auto;
+}
+/*Contacto*/
+#contacto{
+	background-image: url("../img/background/contactus.jpg");
+	height: 500px;
+	background-size: 100%;
+}
+.opacidad{
+	-webkit-filter: brightness(0.5);
+/*	opacity: (0.2);*/
+}
+.caja-datos{
+	background-color: white;
+	opacity: 0.1;
+	margin-top: 2%;
+	color: gray;
+}
+.mensaje{
+	height: 200px;
+}
+.btn-submit{
+	width: 100px;
+	background-color: #23BEC1;
+	text-align: center;
+	margin: 2% 0;
+}
+#follow i{
+	font-size: 40px;
+	margin: 2%;
+}
+/*footer*/
+#footer{
+	background-color: black;
+}
